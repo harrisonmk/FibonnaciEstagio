@@ -23,19 +23,19 @@ public class Main {
     }
 
     public static List<Integer> fibonacci(int n) {
-        List<Integer> sequence = new ArrayList<>();
+        List<Integer> sequencia = new ArrayList<>();
 
         int a = 0;
         int b = 1;
-        sequence.add(a);
+        sequencia.add(a);
 
         while (b < n) {
-            sequence.add(b);
+            sequencia.add(b);
             int c = a + b;
             a = b;
             b = c;
         }
 
-        return sequence;
+        return sequencia;
     }
 }
